@@ -1,0 +1,58 @@
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+/* nav section */
+.button-container {
+    background: linear-gradient(to right , #F7E93F 0% , #FB09B4 51% , #9100F8 100%);
+    margin-top: 24px;
+    
+
+}
+.nav-button button:hover{
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+   
+    
+    .nav-button , .nav-menu{
+        display: none;
+    }
+    .nav-logo{
+        margin-left: 0;
+    }
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 1920px) {
+    .menu-image{
+        display: none;
+    }
+}
+
+
+
+
+
+@import "tailwindcss"
+
+
+
+
