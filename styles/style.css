@@ -182,6 +182,13 @@
           font-size: 12px;
           /* margin-top: 6px; */
     }
+    .card-one p{
+        margin-top: 5px;
+    }
+    .featured-header{
+        font-size: 22px;
+        padding-top: 20px;
+    }
     
 }
 
