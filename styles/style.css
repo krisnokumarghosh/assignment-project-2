@@ -47,7 +47,22 @@
     border: 2px solid #00FF88;
     border-radius: 10000px;
 }
+/* about section */
 
+.about-container{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.226);
+}
+.rating-container h1{
+  font-weight: bolder;
+  font-size: 48px;
+  color: #00FF88;
+}
+.rating-container p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff73;
+    margin-top: 16px;
+}
 
 
 
@@ -69,6 +84,75 @@
     }
     .nav-logo{
         margin-left: 0;
+    }
+    .banner-section{
+    background-position: 100%;    
+    width: 100%;
+    /* max-width: px; */
+    
+    }
+    .microphone-image{
+        margin-left: 50px;
+        width: 250px;
+        height: 250px;
+        margin-top: 30px;
+        
+    }
+    .microphone-image img{
+        height: 250px;
+        padding: 50px;
+        
+       
+    }
+    .banner-text-1{
+       
+        width: 200px;
+        font-size: 38px;
+        margin-left: 70px;
+        /* margin: 0 auto; */
+    }
+    .banner-text{
+        width: 300px;
+        font-size: 13px;
+        margin-left: 30px;
+    }
+    .banner-button{
+        /* width: 300px; */
+        margin-left: 20px;
+        gap: 10px;
+        width: 300px;
+        height: 20px;
+    }
+    .banner-button p{
+        font-size: 14px;
+    }
+    .banner-button img{
+        margin-left: 15px;
+    }
+    .new-button{
+        margin-left: 200px
+    }
+    .about-text{
+        width: 300px;
+        height: 200px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .about-text h1{
+
+        font-size: 32px;
+        /* margin-left: 10px; */
+    }
+    .about-text p{
+        line-height: 20px;
+        height: 152px;
+        font-size: 13px;
+        margin-left: 8px;
+    }
+    .rating-container{
+        flex-wrap: wrap;
+        margin-top: 20px;
+        gap: 20px;
     }
 }
 
