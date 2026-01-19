@@ -7,48 +7,49 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    
+    <link rel="stylesheet" href="styles/style.css">
     
     <title>Techwave</title>
 
 
-    <link rel="stylesheet" href="./styles/style.css">
+    
 </head>
 <body class="font-inter">
     <header>
-      <nav class="max-w-[1920px] h-[92px]  bg-[#1A0B2E]">
+      <nav class=" h-[92px]  bg-[#1A0B2E]">
         <div class="nav-container flex justify-around">
 
             <div class="nav-logo mt-[30px]">
                 <img src="./assets/TechWave.png" alt="">
             </div>
 
-            <div class="nav-menu">
+            <div class="nav-menu ">
                 <ul class="menu-list flex gap-8 text-[#FFFFFF] font-medium text-[16px] mt-[36.5px]">
-                    <li><a href="">About</a></li>
-                    <li><a href="">Episodes</a></li>
-                    <li><a href="">Host</a></li>
+                    <li class="transition-all hover:text-blue-600 duration-300"><a href="">About</a></li>
+                    <li class="transition-all hover:text-blue-600 duration-300"><a href="">Episodes</a></li>
+                    <li class="transition-all hover:text-blue-600 duration-300"><a class="" href="">Host</a></li>
+                    
                 </ul>
             </div>
 
-            <div class="nav-button">
+            <div class="nav-button transition-all duration-300 hover:scale-110 ">
                 <button class="button-container w-[135px] h-11 flex justify-center pt-2.5  gap-1 border-0 rounded-[10000px] ">
-                    <p class="font-semibold text-[16px] text-[#FFFFFF]">Subscribe</p>
+                    <p class="font-semibold text-[16px] text-[#FFFFFF] ">Subscribe</p>
                     <img class="w-5 h-5 mt-[3px]"  src="./assets/ArrowRight.png" alt="">
                 </button>
                
             </div>
-             <div class="menu-image mt-9">
+             <div class="menu-image mt-9 md:hidden block">
                     <img src="./assets/List.png" alt="">
                 </div>
 
         </div>
       </nav>
          <!-- banner section -->
-         <section class=" banner-section h-[760px]  bg-[#1A0B2E]">
-            <div class="banner-container ">
-                <div class="new-button border h-[38px] w-[75px] ml-[352px] rounded-[10000px] bg-[#00FF88]">
-                    <button class="pl-4 pt-1 font-semibold text-[18px] text-[#1A0B2E]">NEW</button>
+         <section class=" banner-section h-[760px]  bg-[#1A0B2E] ">
+            <div class="banner-container  relative ">
+                <div class="absolute">
+                    <button class="new-button border-0 bg-[#00FF88] h-[38px] w-[75px] font-semibold text-[18px] text-[#1A0B2E] rounded-[10000px]  ml-[1000px]">NEW</button>
                 </div>
 
                 <div class="microphone-image mx-auto">
@@ -68,7 +69,7 @@
 
                     <button class="banner-b-2 flex w-[147px] h-11 gap-2">
                         <img class="h-5 w-5 ml-5 mt-3" src="./assets/message.png" alt="">
-                        <p class="font-semibold text-[16px] text-[#00FF88] mt-[8.5px]">Subscribe</p>
+                        <p class="font-semibold text-[16px] text-[#00FF88] mt-[8.5px]  duration-200">Subscribe</p>
                     </button>
                 </div>
 
@@ -76,7 +77,7 @@
          </section>
            <!-- about section -->
          <section class="about-section  h-[646px] bg-[#1A0B2E] ">
-           <div class="about-container w-[1200px] h-80 mx-auto ">
+           <div class="about-container md:w-[1200px] h-80 mx-auto ">
               
             <div class="about-text   pt-[50px] text-center">
               <h1 class="font-bold text-[48px] text-[#FFFFFF]">About the Podcast</h1>
@@ -89,7 +90,7 @@
 
            </div>
 
-           <div class="rating-container h-[94px] flex justify-center gap-20 mt-20">
+           <div class="flex justify-center mt-20 rating-container gap-20">
 
             <div>
                 <h1>150K+</h1>
@@ -112,6 +113,43 @@
          </section>
 
     </header>
+
+    <main>
+        <!-- card section -->
+         <section class="bg-[#230E3D] h-[1121px] section-card">
+           <div class="card-header font-bold text-[48px] text-[#FFFFFF] text-center pt-[120px]">
+            <h1>Why Choose TechWave</h1>
+           </div>   
+           
+           <div class="cards w-[1200px] mx-auto h-[783px] grid gap-[30px] grid-cols-3 mt-10 ">
+             <div class="card-one  border-0 rounded-[40px] bg-[#351165]  row-span-2 pl-10 pt-[107px] h-[480px] ">
+                <img src="./assets/headphone.png" alt="">
+                <h3 class="mt-4 font-bold text-[24px] text-[#FFFFFF]">Premium Audio Quality</h3>
+                <p class="text-[16px] leading-6 text-[#ffffff77] mt-4">Experience crystal-clear sound with <br>professional-grade recording <br>equipment and expert audio <br>engineering. Every episode is mastered <br>for optimal listening across all devices <br>and platforms.</p>
+             </div>
+             <div class="card-common border-0 rounded-[40px] bg-[#351165]  col-span-2 pl-10 pt-10 h-[225px] ">
+                <img src="./assets/device.png" alt="">
+                <h3 class="mt-4 font-bold text-[24px] text-[#FFFFFF]">Mobile Friendly</h3>
+                <p class="text-[16px] leading-6 text-[#ffffff77] mt-4">Listen on the go with seamless mobile experience and offline downloads.</p>
+             </div>
+             <div class="card-common border-0 rounded-[40px] bg-[#351165] col-span-2 pl-10 pt-10 h-[225px] ">
+                <img src="./assets/location.png" alt="">
+                <h3 class="mt-4 font-bold text-[24px] text-[#FFFFFF]">Global Community</h3>
+                <p class="text-[16px] leading-6 text-[#ffffff77] mt-4">Connect with tech enthusiasts from over 120 countries worldwide.</p>
+             </div>
+             <div class="card-four border-0 rounded-[40px] bg-[#351165] col-span-2 pl-10 pt-10 h-[273px] ">
+                <img src="./assets/zap-fast.png" alt="">
+                <h3 class="mt-4 font-bold text-[24px] text-[#FFFFFF]">Exclusive Interviews</h3>
+                <p class="text-[16px] leading-6 text-[#ffffff77] mt-4">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host <br>secures exclusive conversations you won't find anywhere else, diving deep into their <br>journeys, failures, and success strategies.</p>
+             </div>
+             <div class="card-common border-0 rounded-[40px] bg-[#351165]  h-[273px] pl-10 pt-10  ">
+                <img src="./assets/resource.png" alt="">
+                <h3 class="mt-4 font-bold text-[24px] text-[#FFFFFF]">Rich Resources</h3>
+                <p class="text-[16px] leading-6 text-[#ffffff77] mt-4">Access show notes, transcripts, and additional learning materials for every episode.</p>
+             </div>
+           </div>
+         </section>
+    </main>
     
 </body>
 </html>

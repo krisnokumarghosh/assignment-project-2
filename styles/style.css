@@ -24,7 +24,7 @@
 .banner-container{
      margin: 0 auto;
     /* border: 1px solid; */
-    width: 550px;
+    /* width: 550px; */
     height: 558px;
     margin-top: 101px;
    
@@ -63,15 +63,6 @@
     color: #ffffff73;
     margin-top: 16px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -130,7 +121,7 @@
         margin-left: 15px;
     }
     .new-button{
-        margin-left: 200px
+        margin-left: 220px
     }
     .about-text{
         width: 300px;
@@ -138,22 +129,56 @@
         padding-top: 20px;
         text-align: center;
     }
+    .rating-container{
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 30px;
+    }
     .about-text h1{
 
-        font-size: 32px;
-        /* margin-left: 10px; */
+        font-size: 28px;
+        margin-left: 50px;
     }
     .about-text p{
         line-height: 20px;
         height: 152px;
         font-size: 13px;
-        margin-left: 8px;
+        margin-left: 50px;
     }
-    .rating-container{
-        flex-wrap: wrap;
-        margin-top: 20px;
-        gap: 20px;
+    .card-header{
+        font-size: 35px;
+        text-align: center;
+        padding-top: 30px;
     }
+    .section-card{
+        height: 1450px;
+    }
+    .cards{
+        width: 400px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+        margin-top: 16px;
+       
+    }
+    .card-one{
+        height: 287px;
+        width: 400px;
+        padding-top: 22px;
+        padding-left: 22px;
+    }
+    .card-common{
+        height: 215px;
+        width: 400px;
+         padding-top: 22px;
+        padding-left: 22px;
+    }
+    .card-four{
+        height: 311px;
+        width: 400px;
+         padding-top: 22px;
+        padding-left: 22px;
+    }
+    
 }
 
 
