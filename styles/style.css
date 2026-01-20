@@ -260,12 +260,14 @@
     .host-image img{
         height: 150px;
         max-width: 150px;
+        margin-left: 60px;
     
     }
     .host-text-div{
         margin-top: 5px;
     }
     .host-text h3{
+        margin-left: 70px;
         font-size: 23px;
         margin-bottom: 9px;
     }
