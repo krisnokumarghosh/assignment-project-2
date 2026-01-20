@@ -131,8 +131,15 @@
     }
     .rating-container{
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 20px;
+        height: 208px;
         margin-top: 30px;
+    }
+    .rating-container div h1{
+        font-size: 30px;
+    }
+    .rating-container p{
+        font-size: 13px;
     }
     .about-text h1{
 
@@ -186,10 +193,28 @@
         margin-top: 5px;
     }
     .featured-header{
-        font-size: 22px;
         padding-top: 20px;
+         margin-bottom: 10px;
     }
-    
+    .featured-header h1{
+        font-size: 26px;
+       
+    }
+    .div-card{
+        flex-direction: column;
+        gap: 15px;
+        
+    }
+    .div-card-content h3{
+        font-size: 16px;
+    }
+    .div-card-content p{
+        font-size: 13px;
+    }
+    .div-card-content img{
+        height: 15px;
+        width: 15px;
+    }
 }
 
 
