@@ -29,19 +29,23 @@
     margin-top: 101px;
    
 }
+.microphone-image img{
+    transition: transform 5s;
+}
+.microphone-image img:hover{
+    transform: rotate(360deg) ;
+}
 .microphone-image{
     height: 400px;
     width: 400px;
     background-image: url('../assets/hero-circle.png');
     background-size: cover;
 }
-.banner-button{
-    width: 356px;
-    height: 44px;
-}
+
 .banner-b-1{
      background: linear-gradient(to right , #F7E93F 0% , #FB09B4 51% , #9100F8 100%);
      border-radius: 10000px;
+     width: 201px;
 }
 .banner-b-2{
     border: 2px solid #00FF88;
@@ -114,6 +118,9 @@
         gap: 10px;
         width: 300px;
         height: 20px;
+    }
+    .banner-b-1{
+        width: 141px;
     }
     .banner-button p{
         font-size: 14px;
@@ -265,6 +272,28 @@
     .host-text p{
         font-size: 12px;
         margin-bottom: 10px;
+    }
+    footer{
+        
+        background-image: none;
+        background-image: url("../assets/Image.png");
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        /* height: 248px; */
+        padding-top: 40px;
+    }
+    .footer-logo{
+        margin-left: 10px;
+        width: 219px;
+        height: 35px;
+        margin: 40px auto;
+    }
+    .social{
+        flex-wrap: wrap;
+        
+    }
+    .copyright{
+        font-size: 13px;
     }
 }
 
